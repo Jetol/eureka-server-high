@@ -1,0 +1,8 @@
+server:
+  port: 8769
+spring:
+  profiles: peer2
+eureka:
+  instance: peer2
+  client:
+    service-url: http://peer1:8761/eureka
